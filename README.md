@@ -47,6 +47,8 @@ To build the software run the following command:
 $ mvn package
 ```
 
+
+
 This will generate a jar file at `target/bookstore-v2-1.0.0-SNAPSHOT.jar` directory that when run with the command `java -jar target/bookstore-v2-1.0.0-SNAPSHOT.jar` will run the jetty web server.
 
 The logs from the jar file should report the url to access the web server on, which is port `8080` by default.
