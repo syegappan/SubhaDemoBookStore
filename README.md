@@ -39,6 +39,7 @@ container with:
 * Azure CLI tools
 
 
+
 ### Running locally:
 To build the software run the following command:
 
