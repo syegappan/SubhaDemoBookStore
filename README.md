@@ -47,12 +47,13 @@ $ mvn package
 ```
 
 This will generate a jar file at `target/bookstore-v2-1.0.0-SNAPSHOT.jar` directory that when run with the command `java -jar target/bookstore-v2-1.0.0-SNAPSHOT.jar` will run the jetty web server.
+
 The logs from the jar file should report the url to access the web server on, which is port `8080` by default.
 
 
 ### Running in a Docker container:
 
-The Codespace is configured to build and execute the container as a tasks.
+The Codespace is configured to build and execute the container as a task.
 
 * `docker: build container` will build the java project and then the container for you, prompting for details along the way
 * `docker: run container` will allow you to run the container that you built allowing you to select the port that is bound to (`8080` by default).
@@ -65,7 +66,7 @@ Building and running the container locally without the tasks in GitHub Codespace
 
 ### Flow diagram
 
-The flow diagram below depicts the Actions' workflows that are pre-configured, the events that trigger each of them and the different Azure environments that are spinned up during the demo. 
+The flow diagram below depicts the Actions' workflows that are pre-configured, the events that trigger each of them and the different Azure environments that are spinned up during the demo.
 
 ![Azure_Bookstore_Demo drawio](https://user-images.githubusercontent.com/3329307/140162304-a72882b5-291a-4a6c-b43f-957b9a2a268c.png)
 
