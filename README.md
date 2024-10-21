@@ -23,8 +23,7 @@ For a step-by-step guide see: [Bookstore Demo](https://github.com/github/solutio
 
 ## Running the Web Application locally
 
-You can run the web application locally using Maven for development purposes, which can be done either directly if you
-have Maven and a JDK installed, or inside a container that has Maven and JDK installed.
+You can run the web application locally using Maven for development purposes, which can be done either directly if you have Maven and a JDK installed, or inside a container that has Maven and JDK installed.
 
 
 ### GitHub Codespaces
@@ -46,6 +45,8 @@ To build the software run the following command:
 ```bash
 $ mvn package
 ```
+
+
 
 This will generate a jar file at `target/bookstore-v2-1.0.0-SNAPSHOT.jar` directory that when run with the command `java -jar target/bookstore-v2-1.0.0-SNAPSHOT.jar` will run the jetty web server.
 
