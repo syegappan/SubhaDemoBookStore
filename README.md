@@ -52,6 +52,8 @@ This will generate a jar file at `target/bookstore-v2-1.0.0-SNAPSHOT.jar` direct
 The logs from the jar file should report the url to access the web server on, which is port `8080` by default.
 
 
+
+
 ### Running in a Docker container:
 
 The Codespace is configured to build and execute the container as a task.
